@@ -19,6 +19,7 @@ def excluir_arquivos(pasta):
 
 pastaRaiz = input("\nDigite o caminho da pasta raiz.\n-> ")
 pastaTemp = input("\nDigite o caminho da pasta que contem os arquivos que deseja excluir.\n-> ")
+inter = int(input("Digite o intervalo de tempo para o loop [em segundos]\n-> "))
 
 while True:
     itens = os.listdir(pastaRaiz)
@@ -32,4 +33,4 @@ while True:
         print(f"\nA pasta {pastaTemp} está vazia.\n")
     else:
         print(f"\nA pasta {pastaRaiz} está funcionando bem.\n")
-    time.sleep(10)
+    time.sleep(inter)

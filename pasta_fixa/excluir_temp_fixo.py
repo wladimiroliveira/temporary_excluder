@@ -3,6 +3,11 @@ import shutil
 import time
 from send2trash import send2trash
 
+pastaRaiz = "C:\\WINTHOR\\PROD\\MOD-020\\SERVIDOR"
+pastaTemp = "C:\\WINTHOR\\PROD\\MOD-020\\SERVIDOR\\NAO PROCESSADOS"
+inter = 300
+inicio = 17
+
 def excluir_arquivos(pasta):
     if not os.path.exists(pasta):
         print(f"\nA pasta {pasta} não existe\n")
@@ -18,10 +23,6 @@ def excluir_arquivos(pasta):
 
     print("\nTodos os arquivos foram excluídos!\n")
 
-pastaRaiz = "C:\\WINTHOR\\PROD\\MOD-020\\SERVIDOR"
-pastaTemp = "C:\\WINTHOR\\PROD\\MOD-020\\SERVIDOR\\NAO PROCESSADOS"
-inter = 300
-inicio = 17
 
 while True:
     itens = os.listdir(pastaRaiz)

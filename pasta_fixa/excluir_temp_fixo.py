@@ -18,8 +18,8 @@ def excluir_arquivos(pasta):
 
     print("\nTodos os arquivos foram excluídos!\n")
 
-pastaRaiz = "C:\\Users\\UserTI\\Desktop\\raiz"
-pastaTemp = "C:\\Users\\UserTI\\Desktop\\raiz\\teste-temp"
+pastaRaiz = "C:\\WINTHOR\\PROD\\MOD-020\\SERVIDOR"
+pastaTemp = "C:\\WINTHOR\\PROD\\MOD-020\\SERVIDOR\\NAO PROCESSADOS"
 inter = 300
 inicio = 17
 
